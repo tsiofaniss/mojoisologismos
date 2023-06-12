@@ -1,0 +1,492 @@
+body
+{
+   background-color: #C0C0C0;
+   background-image: url('images/index_bkgrnd.png');
+   background-repeat: repeat-x;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#PageHeader
+{
+   background-color: #212121;
+   background-image: none;
+   border-radius: 0px;
+   box-sizing: border-box;
+}
+#PageHeader
+{
+   transition: all 500ms linear 0ms;
+}
+#wb_CssMenu1
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   background-color: transparent;
+   margin: 0;
+   text-align: right;
+}
+#wb_CssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_CssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 0px 0px 0px;
+}
+#wb_CssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #DCDCDC;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   height: 40px;
+   line-height: 40px;
+   padding: 0px 5px 0px 18px;
+   vertical-align: middle;
+   text-align: center;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
+{
+   color: #F05F40;
+   border: 0px solid #222222;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_CssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#wb_LayoutGrid6
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #18191A;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+}
+#LayoutGrid6
+{
+   box-sizing: border-box;
+   padding: 50px 15px 50px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid6 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   float: left;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 50%;
+   text-align: left;
+}
+#LayoutGrid6 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 50%;
+   text-align: left;
+}
+#LayoutGrid6:before,
+#LayoutGrid6:after,
+#LayoutGrid6 .row:before,
+#LayoutGrid6 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid6:after,
+#LayoutGrid6 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_FontAwesomeIcon3
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0 10px 0 0 ;
+   padding: 4px 4px 4px 4px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon3 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#FontAwesomeIcon3
+{
+   height: 32px;
+   width: 32px;
+}
+#FontAwesomeIcon3 i
+{
+   color: #18191A;
+   display: inline-block;
+   font-size: 32px;
+   line-height: 32px;
+   vertical-align: middle;
+   width: 31px;
+}
+#wb_FontAwesomeIcon3:hover #FontAwesomeIcon3 i
+{
+   color: #428BCA;
+}
+#wb_FontAwesomeIcon10
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0 10px 0 0 ;
+   padding: 4px 4px 4px 4px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon10 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#FontAwesomeIcon10
+{
+   height: 32px;
+   width: 32px;
+}
+#FontAwesomeIcon10 i
+{
+   color: #18191A;
+   display: inline-block;
+   font-size: 32px;
+   line-height: 32px;
+   vertical-align: middle;
+   width: 31px;
+}
+#wb_FontAwesomeIcon10:hover #FontAwesomeIcon10 i
+{
+   color: #428BCA;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 20px 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Text2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text9 div
+{
+   text-align: center;
+}
+#wb_Text9
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#about
+{
+   background-color: #000000;
+   background-image: none;
+   border-radius: 0px;
+   margin: 0;
+}
+#wb_contact
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #18191A;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#contact
+{
+   box-sizing: border-box;
+   padding: 50px 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#contact > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#contact > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#contact > .row > .col-1
+{
+   float: left;
+}
+#contact > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#contact:before,
+#contact:after,
+#contact .row:before,
+#contact .row:after
+{
+   display: table;
+   content: " ";
+}
+#contact:after,
+#contact .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#contact > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Footer
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#Footer
+{
+   box-sizing: border-box;
+   padding: 15px 15px 15px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#Footer > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#Footer > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#Footer
+{
+   width: 972px;
+}
+#Footer > .row > .col-1
+{
+   float: left;
+}
+#Footer > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#Footer:before,
+#Footer:after,
+#Footer .row:before,
+#Footer .row:after
+{
+   display: table;
+   content: " ";
+}
+#Footer:after,
+#Footer .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#Footer
+{
+   width: 100%;
+}
+#Footer > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Shape1 a img
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape1 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape1 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape1 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
