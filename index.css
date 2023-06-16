@@ -9,32 +9,6 @@ body
    margin: 0;
    padding: 0;
 }
-
-
-#PageHeader
-{
-   background-color: #212121;
-   background-image: none;
-   border-radius: 0px;
-   box-sizing: border-box;
-   .wrap img {
-      float: left;
-      width: 50px;
-      height: 50px;
-    }
-    .wrap h1 {
-      color: white;
-      font-size: 15px;
-      margin: auto;
-      padding: 15px;
-      width: 50%;
-       }
-    }
-}
-#PageHeader
-{
-   transition: all 500ms linear 0ms;
-}
 #wb_LayoutGrid6
 {
    clear: both;
@@ -84,7 +58,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 50%;
+   width: 100%;
    text-align: left;
 }
 #LayoutGrid6 > .row > .col-2
@@ -93,7 +67,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 50%;
+   display: none;
+   width: 0;
    text-align: left;
 }
 #LayoutGrid6:before,
@@ -440,37 +415,50 @@ body
    width: 434px;
    height: 32px;
 }
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_Shape1
 {
    position: absolute;
    left: 405px;
-   top: 215px;
+   top: 161px;
    width: 163px;
    height: 39px;
    z-index: 3;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 8px;
+   top: 48px;
+   width: 190px;
+   height: 190px;
+   z-index: 4;
 }
 #Shape1
 {
    width: 163px;
    height: 39px;
 }
-#PageHeader
-{
-   position: fixed;
-   overflow: hidden;
-   text-align: center;
-   left: 0;
-   top: 0;
-   right: 0;
-   height: 50px;
-   z-index: 7777;
-}
 #about
 {
    position: relative;
    text-align: center;
    width: 100%;
-   height: 332px;
+   height: 280px;
    float: left;
    clear: left;
    display: block;
@@ -488,19 +476,11 @@ body
 {
    position: absolute;
    left: 139px;
-   top: 75px;
+   top: 89px;
    width: 695px;
-   height: 124px;
+   height: 31px;
    text-align: center;
-   z-index: 4;
-}
-#PageHeader_Container
-{
-   width: 972px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
+   z-index: 5;
 }
 #wb_FontAwesomeIcon10
 {
@@ -508,7 +488,7 @@ body
    width: 32px;
    height: 32px;
    text-align: center;
-   z-index: 7;
+   z-index: 8;
 }
 #wb_FontAwesomeIcon3
 {
@@ -516,7 +496,7 @@ body
    width: 32px;
    height: 32px;
    text-align: center;
-   z-index: 6;
+   z-index: 7;
 }
 @media only screen and (min-width: 1920px)
 {
@@ -524,15 +504,6 @@ body
 {
    background-color: transparent;
    background-image: none;
-}
-#PageHeader
-{
-   height: 50px;
-   visibility: visible;
-}
-#PageHeader_Container
-{
-   width: 1920px;
 }
 #BuildWith1
 {
@@ -734,7 +705,7 @@ body
 #wb_Shape1
 {
    left: 559px;
-   top: 155px;
+   top: 186px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -742,7 +713,7 @@ body
 #wb_Text3
 {
    left: 293px;
-   top: 75px;
+   top: 124px;
    width: 695px;
    height: 31px;
    visibility: visible;
@@ -770,6 +741,17 @@ body
    text-align: left;
    line-height: 16px;
 }
+#wb_Image1
+{
+   left: 31px;
+   top: 65px;
+   width: 203px;
+   height: 203px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
 }
 @media only screen and (min-width: 1280px) and (max-width: 1919px)
 {
@@ -777,15 +759,6 @@ body
 {
    background-color: #000000;
    background-image: none;
-}
-#PageHeader
-{
-   height: 50px;
-   visibility: visible;
-}
-#PageHeader_Container
-{
-   width: 1280px;
 }
 #BuildWith1
 {
@@ -987,7 +960,7 @@ body
 #wb_Shape1
 {
    left: 559px;
-   top: 155px;
+   top: 165px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -995,7 +968,7 @@ body
 #wb_Text3
 {
    left: 293px;
-   top: 75px;
+   top: 102px;
    width: 695px;
    height: 31px;
    visibility: visible;
@@ -1023,6 +996,17 @@ body
    text-align: left;
    line-height: 16px;
 }
+#wb_Image1
+{
+   left: 28px;
+   top: 58px;
+   width: 203px;
+   height: 203px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279px)
 {
@@ -1030,15 +1014,6 @@ body
 {
    background-color: #000000;
    background-image: none;
-}
-#PageHeader
-{
-   height: 50px;
-   visibility: visible;
-}
-#PageHeader_Container
-{
-   width: 1024px;
 }
 #BuildWith1
 {
@@ -1241,7 +1216,7 @@ body
 #wb_Shape1
 {
    left: 431px;
-   top: 161px;
+   top: 193px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -1249,7 +1224,7 @@ body
 #wb_Text3
 {
    left: 139px;
-   top: 80px;
+   top: 146px;
    width: 695px;
    height: 31px;
    visibility: visible;
@@ -1277,6 +1252,17 @@ body
    text-align: left;
    line-height: 16px;
 }
+#wb_Image1
+{
+   left: 13px;
+   top: 83px;
+   width: 157px;
+   height: 157px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px)
 {
@@ -1284,15 +1270,6 @@ body
 {
    background-color: #000000;
    background-image: none;
-}
-#PageHeader
-{
-   height: 50px;
-   visibility: visible;
-}
-#PageHeader_Container
-{
-   width: 768px;
 }
 #BuildWith1
 {
@@ -1405,7 +1382,7 @@ body
 #about
 {
    width: 768px;
-   height: 332px;
+   height: 293px;
    visibility: visible;
    display: block;
    margin: 0;
@@ -1421,7 +1398,7 @@ body
 #about
 {
     width: 100%;
-    height: 332px;
+    height: 293px;
 }
 #wb_contact
 {
@@ -1493,16 +1470,16 @@ body
 }
 #wb_Shape1
 {
-   left: 303px;
-   top: 159px;
+   left: 334px;
+   top: 158px;
    visibility: visible;
    display: inline;
    margin: 0;
 }
 #wb_Text3
 {
-   left: 37px;
-   top: 86px;
+   left: 104px;
+   top: 104px;
    width: 695px;
    height: 31px;
    visibility: visible;
@@ -1530,6 +1507,17 @@ body
    text-align: left;
    line-height: 16px;
 }
+#wb_Image1
+{
+   left: 11px;
+   top: 68px;
+   width: 157px;
+   height: 157px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px)
 {
@@ -1537,15 +1525,6 @@ body
 {
    background-color: #000000;
    background-image: none;
-}
-#PageHeader
-{
-   height: 50px;
-   visibility: visible;
-}
-#PageHeader_Container
-{
-   width: 480px;
 }
 #BuildWith1
 {
@@ -1658,7 +1637,7 @@ body
 #about
 {
    width: 480px;
-   height: 332px;
+   height: 298px;
    visibility: visible;
    display: block;
    margin: 0;
@@ -1674,7 +1653,7 @@ body
 #about
 {
     width: 100%;
-    height: 332px;
+    height: 298px;
 }
 #wb_contact
 {
@@ -1747,7 +1726,7 @@ body
 #wb_Shape1
 {
    left: 159px;
-   top: 171px;
+   top: 213px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -1755,7 +1734,7 @@ body
 #wb_Text3
 {
    left: 5px;
-   top: 83px;
+   top: 141px;
    width: 470px;
    height: 47px;
    visibility: visible;
@@ -1783,6 +1762,17 @@ body
    text-align: left;
    line-height: 16px;
 }
+#wb_Image1
+{
+   left: 175px;
+   top: 0px;
+   width: 130px;
+   height: 130px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
 }
 @media only screen and (max-width: 479px)
 {
@@ -1790,15 +1780,6 @@ body
 {
    background-color: #000000;
    background-image: none;
-}
-#PageHeader
-{
-   height: 50px;
-   visibility: visible;
-}
-#PageHeader_Container
-{
-   width: 336px;
 }
 #BuildWith1
 {
@@ -2000,7 +1981,7 @@ body
 #wb_Shape1
 {
    left: 87px;
-   top: 155px;
+   top: 224px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -2008,9 +1989,9 @@ body
 #wb_Text3
 {
    left: 30px;
-   top: 56px;
+   top: 132px;
    width: 276px;
-   height: 77px;
+   height: 78px;
    visibility: visible;
    display: inline;
 }
@@ -2035,5 +2016,16 @@ body
    padding: 0;
    text-align: left;
    line-height: 11px;
+}
+#wb_Image1
+{
+   left: 109px;
+   top: 14px;
+   width: 118px;
+   height: 118px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
 }
 }
